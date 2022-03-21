@@ -1,0 +1,5 @@
+1) Sendo p um ponteiro, qual a diferença entre:
+• p++; //avancei uma posição na memória
+• (*p)++; // incrementa uma unidade ao conteudo que o ponteiro armazena
+• *(p++); //avança uma posição na memória e depois acessa essa posição
+• O que quer dizer *(p+10); //avança 10 posições a frente da memória que ele está depois acessa o conteudo dela
