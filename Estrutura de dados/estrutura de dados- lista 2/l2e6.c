@@ -15,7 +15,7 @@ int main(){
         cptr++;//vou avançando posições na memoria até chegar no final do vetor
     }
     for(int i=0; i<5; i++){
-        printf("%c -",*cptr);//escrevo a posição final depois diminuo decremento uma posição na memoria até chegar s[0]
+        printf("%c -",*cptr);//escrevo a posição final depois decremento uma posição na memoria até chegar s[0]
         cptr--;
     }
     return 0;
