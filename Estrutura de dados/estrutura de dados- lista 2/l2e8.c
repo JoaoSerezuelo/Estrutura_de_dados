@@ -12,4 +12,5 @@ int main (){
         float preco;
         char name[20];
     }registro;
+    
 }
