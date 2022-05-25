@@ -23,6 +23,13 @@ int main (){
         }
 
     }
+    printf("\n");
+    for(i=0;i<n;i++){
+        for(j=0;j<m;j++){
+            printf("%i%i:  %i   |   ",i+1,j+1,p[i][j]);
+        }
+        printf("\n");
+    }
     for(i=0;i<m;i++){
         free(p[i]);
     }
